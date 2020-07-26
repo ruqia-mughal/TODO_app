@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-style: none;
+    outline: none !important;
+
+
+
+}
+body{
+    overflow-x: hidden !important;
+    background-image: url(../img/coffee-cup-desk-pen.png) !important;
+    background-size:contain !important;
+   
+  height: 1300px;
+   background-repeat: repeat-y!important;
+}
+
+.backimg{
+   
+
+
+   width: 100% !important;
+height: 1300px !important;
+
+ filter: blur(4px);
+
+   position: absolute;
+   left:0px;
+   top:0px;
+
+  
+
+}
+
+.backimg:hover{
+    filter: blur(0px) !important;
+}
+h1{
+
+    position: absolute;
+    top:3%;
+    left:35%;
+    font-size: 3rem;
+    font-weight: 50;
+    margin: 1rem 0 3rem;
+    text-align: center;
+    color: hotpink;
+    text-shadow:2px 3px 3px rgb(226, 131, 178) ;
+    /* outline:  saddlebrown solid 2px !important ; */
+    /* text-decoration-style: dashed;
+    text-decoration-color: indigo !important;
+    text-decoration-line: underline; */
+
+    border-bottom: 1px ridge rgb(212, 90, 182);
+    box-shadow: 1px 3px 12px rgb(226, 131, 178);
+    padding:2px 7px 7px 4px;
+   
+    font-family: Impact;
+}
+.todotitleimg{
+    width:70px;
+   
+    border: 3px solid rgb(110, 199, 235);
+    border-radius: 100%;
+    box-shadow: 3px 2px 10px  skyblue;
+   
+
+}
+.styling{
+  
+  color: cornflowerblue;
+
+ 
+  text-shadow: 1px 2px 3px  rgb(37, 108, 240);
+  
+    font-size: 40px;
+}
+.input_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30%;
+    position: absolute;
+    top:30%;
+    left:0%;
+
+}
+.input_div .input{
+    padding: 0.5rem 1rem;
+    height: 40px;
+    outline: none;
+    background-color: rgb(204, 238, 248);
+    width: 290px;
+   
+    margin:0.25rem;
+    border-radius: 25px;
+    color:black;
+    font-size: 16px;
+   
+
+
+}
+
+
+.input_div .input:hover{
+    
+    width: 300px;
+   
+    outline: none;
+    background-color: rgb(165, 225, 243);
+    border-radius: 35px;
+    color:rgb(4, 73, 52);
+    font-size: 17px;
+   
+
+
+}
+.addbutton{
+    height:50px;
+    width:50px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    background-color: hotpink;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin: 0.25rem;
+    
+
+}
+.addbutton:hover{
+   opacity: 0.55;
+   box-shadow: 0px 1px 10px hotpink ,
+   0px 1px  20px hotpink ,0px 1px  40px hotpink,0px 0px 0px hotpink;
+}
+.container{
+    position: absolute;
+    top:40%;
+    left:0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+
+
+}
+.item{
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 4px ridge rgb(243, 156, 156);
+
+}
+.item_input{
+    background-color: none;
+    font-size: 1.4rem;
+    width:350px;
+    color:rgb(216, 8, 112);
+
+}
+.editbutton{
+    background: none;
+    color:yellowgreen;
+  
+    font-size: 2rem;
+    padding: 5px;
+    margin:5px;
+   
+  letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+}
+.editbutton:hover{
+    padding: 5px 10px;
+    margin:5px;
+   
+ background-color: rgb(245, 245, 146);
+ border-radius: 50%;
+  
+    box-shadow: 1px 1px 10px rgb(245, 245, 146) ,
+     1px 1px  20px rgb(245, 245, 146) ,1px 1px  40px rgb(245, 245, 146);
+ 
+    
+
+}
+.removebutton{
+ 
+    background: none;
+    color:firebrick;
+    font-size: 2rem;
+    padding: 5px 12px ;
+    margin:5px;
+   
+    cursor: pointer;
+    
+    
+}
+.removebutton:hover{
+    background-color: lightcoral;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px rgb(246, 119, 119) ,
+     1px 1px  20px rgb(246, 119, 119) ,1px 1px  40px rgb(246, 119, 119);
+    
+
+}
+
+.btn-success{
+    width:60px;
+    height:60px;
+    border-radius: 90%;
+    font-size: 30px;
+    color:white;
+    background-color: palegreen;
+    border-color: lime !important;
+    box-shadow: 1px 1px 10px lime;
+}
+
+.delbtn{
+    background-color: transparent;
+}
+
+.delbtn img{
+    width: 70px ;
+    border-radius: 90%;
+}
+.delbtn img:hover{
+   transform: translate3d(2px ,3px ,4px );
+    border-right:3px solid  hotpink;
+    border-top: 3px double purple;
+    border-bottom:3px  dotted red ;
+    border-left: 4px solid palegreen;
+    
+}
+
+@media only screen and (max-width: 400px){
+body{
+    overflow-x: hidden !important;
+}
+    .delbtn img {
+   
+        width: 35px !important;
+    }
+    .addbutton{
+     width: 30px !important;
+     height: 20px;
+
+
+    }
+    .both{
+        line-break: normal;
+        width:10px !important;
+        height:30px;
+        margin: none !important;
+        padding: none !important;
+    }
+    .input_div .input{
+        padding: 1px ;
+       
+       
+       
+        margin:2px
+      
+       
+    
+    
+    }
+
+}
